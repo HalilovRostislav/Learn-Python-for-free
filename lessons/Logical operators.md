@@ -1,8 +1,0 @@
-# What is Operator?
-
-A simple answer can be given by the expression ```2 + 5 is 7```.
-Here 2 and 5 are operands, and the plus sign ```+``` is called an operator.
-
-
-
-
