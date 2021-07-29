@@ -34,12 +34,14 @@ Now you need to do something with the list. Basic built-in functions are availab
  >>> print(list.append(4))
  [2, 5, 'car', 4]
  ```
+ #
 * list.extend(N) Expands list by adding all the elements of L to the end 
 ```
 >>> list = []
 >>> print(list.extend('add'))
 ['a', 'd', 'd']
 ```
+#
 
 * list.insert(i, x) Inserts the value x on the i-th element
 * list.remove(x) Removes the first item in the list that has the value x. ValueError if no such element exists
