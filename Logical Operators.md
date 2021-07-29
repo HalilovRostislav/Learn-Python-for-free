@@ -14,6 +14,20 @@ We denote comparisons with words (equal, greater than, less than, greater or equ
 * ```==``` (equal)
 * ```!=``` (not equal)
 
+```
+>>> a = 21
+>>> b = 9
+>>> a + b < 14
+False
+>>> a / b == 0
+False
+>>> a <= b + 5
+True
+>>> a != b
+True
+>>> a == b
+False
+```
 
 # Logical operators
 
