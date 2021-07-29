@@ -31,3 +31,16 @@ False
 
 # Logical operators
 
+* ```and``` expression is true if both components are true.
+* ```or``` expression is true if at least one component is true
+* ```not``` reverses a boolean value.
+
+```
+>>> print((9 > 7) and (2 < 4))  
+True
+>>> print((8 == 8) or (6 != 6)) 
+True
+>>> print(not(3 <= 1))       
+True
+
+```
