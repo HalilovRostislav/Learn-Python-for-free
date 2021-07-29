@@ -35,7 +35,7 @@ Now you need to do something with the list. Basic built-in functions are availab
  [2, 5, 'car', 4]
  ```
  #
-* list.extend(N) Expands list by adding all the elements of L to the end 
+* list.extend(N) Expands list by adding all the elements of N to the end 
 ```
 >>> list = []
 >>> print(list.extend('add'))
@@ -43,8 +43,16 @@ Now you need to do something with the list. Basic built-in functions are availab
 ```
 #
 
-* list.insert(i, x) Inserts the value x on the i-th element
+* list.insert(a, x) Inserts the value x on the a-th element
+```
+>>> list = [1, 3]
+>>> print(list.insert(1, 2))
+[1, 2, 3]
+```
+#
 * list.remove(x) Removes the first item in the list that has the value x. ValueError if no such element exists
+
+
 * list.pop ([i]) Removes the i-th element and returns it. If no index is specified, the last element is removed
 * list.index(x, [start [, end]]) Returns the position of the first element with value x (searching from start to end)
 * list.count(x) Returns the number of items with value x
