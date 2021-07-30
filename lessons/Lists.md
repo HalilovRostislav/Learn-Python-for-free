@@ -2,6 +2,12 @@
 
 lists are a separate data type that can store a different number of data types.
 to create a list, you need to use square brackets (```[]```).
+
+# what is the difference between a list and an array?
+
+
+For example, an array can contain only one kind of data type. 
+The list can also contain items of only one type. But it is perfectly acceptable for the same list to contain both numbers and strings.
 ```py
 a = [1, 2, 3, 4, 5]
 ```
@@ -59,7 +65,7 @@ Now you need to do something with the list. Basic built-in functions are availab
 >>> print(list)
 [1, 2, 3, 4, 5]
 ```
-
+#
 
 * list.pop ([i]) Returns the element at the specified position by removing it from the list.
 ```
