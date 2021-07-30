@@ -52,7 +52,13 @@ Now you need to do something with the list. Basic built-in functions are availab
 [1, 2, 3]
 ```
 #
-* list.remove(x) Removes the first item in the list that has the value x. ValueError if no such element exists
+* list.remove(x) Removes the specified element from the list.
+```
+>>> list = [1, 2, 3, 4, 'phone', 5]
+>>> list.remove('phone')
+>>> print(list)
+[1, 2, 3, 4, 5]
+```
 
 
 * list.pop ([i]) Removes the i-th element and returns it. If no index is specified, the last element is removed
