@@ -61,7 +61,10 @@ Now you need to do something with the list. Basic built-in functions are availab
 ```
 
 
-* list.pop ([i]) Removes the i-th element and returns it. If no index is specified, the last element is removed
+* list.pop ([i]) Returns the element at the specified position by removing it from the list.
+```
+
+```
 * list.index(x, [start [, end]]) Returns the position of the first element with value x (searching from start to end)
 * list.count(x) Returns the number of items with value x
 * list.sort([key = function]) Sorts the list based on the function
