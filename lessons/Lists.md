@@ -38,7 +38,8 @@ Now you need to do something with the list. Basic built-in functions are availab
 * list.extend(N) Expands list by adding all the elements of N to the end 
 ```
 >>> list = []
->>> print(list.extend('add'))
+>>> list.extend('add')
+>>> print(list)
 ['a', 'd', 'd']
 ```
 #
@@ -46,7 +47,8 @@ Now you need to do something with the list. Basic built-in functions are availab
 * list.insert(a, x) Inserts the value x on the a-th element
 ```
 >>> list = [1, 3]
->>> print(list.insert(1, 2))
+>>> list.insert(1, 2)
+>>> print(list)
 [1, 2, 3]
 ```
 #
