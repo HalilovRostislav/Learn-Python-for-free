@@ -1,13 +1,16 @@
 # What is List?
 
 lists are a separate data type that can store a different number of data types.
-to create a list, you need to use square brackets (```[]```).
+to create a list, you must use square brackets (`` [] ``). 
+all list items are comma separated (2, 6, 'Hello', 'A', 5)
 
 # what is the difference between a list and an array?
 
-
 For example, an array can contain only one kind of data type. 
 The list can also contain items of only one type. But it is perfectly acceptable for the same list to contain both numbers and strings.
+
+#
+
 ```py
 a = [1, 2, 3, 4, 5]
 ```
@@ -69,8 +72,15 @@ Now you need to do something with the list. Basic built-in functions are availab
 
 * list.pop ([i]) Returns the element at the specified position by removing it from the list.
 ```
-
+>>> list = [1, 2, 3, 4, 5]
+>>> popped1 = list.pop() # 5
+>>> list 
+[1, 2, 3, 4]
 ```
+Here we see that the last element of the list is removed and entered into the variable (popped1), in addition, we can work with the removed element.
+
+#
+
 * list.index(x, [start [, end]]) Returns the position of the first element with value x (searching from start to end)
 * list.count(x) Returns the number of items with value x
 * list.sort([key = function]) Sorts the list based on the function
