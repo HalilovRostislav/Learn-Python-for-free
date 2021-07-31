@@ -79,6 +79,13 @@ Now you need to do something with the list. Basic built-in functions are availab
 ```
 Here we see that the last element of the list is removed and entered into the variable (popped1), in addition, we can work with the removed element.
 
+To remove an element by index, you need to put the index you need in brackets
+```
+>>> list = [1, 2, 3, 4, 5]
+>>> popped2 = list.pop(-3) # 2
+>>> list
+[1, 2, 4, 5]
+```
 #
 
 * list.index(x, [start [, end]]) Returns the position of the first element with value x (searching from start to end)
