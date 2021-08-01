@@ -91,6 +91,12 @@ To remove an element by index, you need to put the index you need in brackets
 * `list.index(x, i)` a built-in list method that lets you know the index or position of an element.
 Simply put, this method looks for an item in the list and returns it
 
+```
+>>> list = [1, 2, 3, 4, 5]
+>>> list.index(2)
+1
+```
+if you specify an element that does not exist in the list, then it will return an error: ValueError
 
 
 #
