@@ -98,10 +98,36 @@ Simply put, this method looks for an item in the list and returns it
 ```
 if you specify an element that does not exist in the list, then it will return an error: ValueError
 
+#
+* `list.count(x)` returns the number of elements x
+
+```
+>>> list = [1, 2, 3, 4, 5, 2]
+>>> list.count(2)
+2
+```
 
 #
-* list.count(x) Returns the number of items with value x
-* list.sort([key = function]) Sorts the list based on the function
+
+* list.sort() Sorts the list items in ascending order.
+
+```
+>>> list = [1, 2, 3, 4, 5, 2]
+>>> list.sort()
+>>> list
+[1, 2, 2, 3, 4, 5]
+```
+You can also sort the list in descending order.
+
+```
+>>> list = [1, 2, 3, 4, 5, 2]
+>>> list.sort(reverse=True)
+>>> list
+[5, 4, 3, 2, 2, 1]
+```
+
+#
+
 * list.reverse() Expands the list
 * list.copy() A shallow copy of the list
 * list.clear() Clears the list
