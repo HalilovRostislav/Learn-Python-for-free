@@ -109,7 +109,7 @@ if you specify an element that does not exist in the list, then it will return a
 
 #
 
-* list.sort() Sorts the list items in ascending order.
+* `list.sort()` Sorts the list items in ascending order.
 
 ```
 >>> list = [1, 2, 3, 4, 5, 2]
@@ -128,6 +128,19 @@ You can also sort the list in descending order.
 
 #
 
-* list.reverse() Expands the list
-* list.copy() A shallow copy of the list
+* list.reverse() rearranges the elements of the list in reverse order.
+
+```
+>>> list = [1, 'red', 'a', 4]
+>>> list.reverse()
+>>> list
+[4, 'a', 'red', 1]
+```
+
+#
+
+* list.copy() copies the list.
+
+
+
 * list.clear() Clears the list
