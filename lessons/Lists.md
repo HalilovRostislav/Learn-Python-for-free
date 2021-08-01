@@ -14,10 +14,14 @@ The list can also contain items of only one type. But it is perfectly acceptable
 ```py
 a = [1, 2, 3, 4, 5]
 ```
-you can also use the ```list()``` constructor to create a list.
+You can also convert other types of data to a list.
 ```py
-a = list()
+>>> a = list('1234')
+>>> a
+['1', '2', '3', '4']
 ```
+
+#
 
 To refer to the elements of the list, you need to use their indices. List item indexing starts at 0.
 that is, the first element of the list will have index `0` and the second `1`.
@@ -128,7 +132,7 @@ You can also sort the list in descending order.
 
 #
 
-* list.reverse() rearranges the elements of the list in reverse order.
+* `list.reverse()` rearranges the elements of the list in reverse order.
 
 ```
 >>> list = [1, 'red', 'a', 4]
@@ -139,8 +143,15 @@ You can also sort the list in descending order.
 
 #
 
-* list.copy() copies the list.
+* `list.copy()` shallow copy of list
 
+```
+>>> list = [1, 4, 2, 'green', 6]
+>>> copy_list = list.copy()
+>>> copy_list
+[1, 4, 2, 'green', 6]
+```
 
+#
 
-* list.clear() Clears the list
+* list.clear() clears the list
