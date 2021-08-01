@@ -37,14 +37,14 @@ In this case, the first element of the list has been replaced with 'plane'
 
 Now you need to do something with the list. Basic built-in functions are available for lists, as well as list methods.
 
-* list.append(N) Adds an item to the end of the list
+* `list.append(N)` Adds an item to the end of the list
  ```
  >>> list = [2, 5, 'car']
  >>> print(list.append(4))
  [2, 5, 'car', 4]
  ```
  #
-* list.extend(N) Expands list by adding all the elements of N to the end 
+* `list.extend(N)` Expands list by adding all the elements of N to the end 
 ```
 >>> list = []
 >>> list.extend('add')
@@ -53,7 +53,7 @@ Now you need to do something with the list. Basic built-in functions are availab
 ```
 #
 
-* list.insert(a, x) Inserts the value x on the a-th element
+* `list.insert(a, x)` Inserts the value x on the a-th element
 ```
 >>> list = [1, 3]
 >>> list.insert(1, 2)
@@ -61,7 +61,7 @@ Now you need to do something with the list. Basic built-in functions are availab
 [1, 2, 3]
 ```
 #
-* list.remove(x) Removes the specified element from the list.
+* `list.remove(x)` Removes the specified element from the list.
 ```
 >>> list = [1, 2, 3, 4, 'phone', 5]
 >>> list.remove('phone')
@@ -70,7 +70,7 @@ Now you need to do something with the list. Basic built-in functions are availab
 ```
 #
 
-* list.pop (i) Returns the element at the specified position by removing it from the list.
+* `list.pop(i)` Returns the element at the specified position by removing it from the list.
 ```
 >>> list = [1, 2, 3, 4, 5]
 >>> popped1 = list.pop() # 5
@@ -88,7 +88,12 @@ To remove an element by index, you need to put the index you need in brackets
 ```
 #
 
-* list.index(x, i) Returns the position of the first element with value x (searching from start to end)
+* `list.index(x, i)` a built-in list method that lets you know the index or position of an element.
+Simply put, this method looks for an item in the list and returns it
+
+
+
+#
 * list.count(x) Returns the number of items with value x
 * list.sort([key = function]) Sorts the list based on the function
 * list.reverse() Expands the list
