@@ -155,3 +155,11 @@ You can also sort the list in descending order.
 #
 
 * list.clear() clears the list
+
+ ```
+>>> list = ['1', '32', 5, 8, 1]
+>>> list.clear()
+>>> list
+[]
+ ```
+ An empty list is displayed
