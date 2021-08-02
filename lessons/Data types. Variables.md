@@ -1,13 +1,12 @@
 # Data types. Variables
 
-In real life, we perform various actions with the objects around us. We change their properties, endow them with new functions. 
-By analogy with this, computer programs also control objects,
-only digital ones. Until we get to the level of object-oriented programming, 
-we will call such objects data.
-Often a computer program must work with numbers and strings.
-The addition operation changed the first number by the value of the second,
-and multiplication increased one number by the number of times corresponding to the second.
-Numbers, in turn, are also different: whole, real, can have a huge value or a long fractional part.
+A variable is an area of ​​memory that stores information. Variable names must begin with an alphabetic character or an underscore (_) character.
+Also, the name of the variable can contain a number (name1).
+In addition, the name of the variable should not be from the name of Python keywords.
+
+[and, as, assert, break, class, continue, def, del, elif, else, except, False, finally, for, from, global, if, import, in, is, lambda, None, nonlocal, not, or, pass, raise, return, True, try, while, with, yield.]
+
+#
 
 * ```integers``` (int type) - positive and negative integers, as well as 0 (for example, 6, 23, -9, 1).
 * ```floating point numbers``` (float type) - fractional, they are real, numbers (for example, 3.5, 342.4535, -0.432) 
