@@ -4,11 +4,9 @@ The string is an ordered sequence of characters. Used to store text information.
 
 # Can number be a string?
 
-Yes. Put the main number in quotes.
-we can see that the numbers in the variables are not enclosed in quotes because it is not a string, but of type int (integer data type
-). If the value in the variable is not enclosed in quotes, then it is not a string.  
+Yes. Enclose values ​​in quotation marks. We usually see that the numbers are not enclosed in quotes, because they are not a string, but int (integer data type) or float (floating point numbers). If the value of the variable is not enclosed in quotes, then it is not a string. 
 
-We can also find out the data type of the value for this we can use the `type()` function, `print(type(10))`, output: `<class 'int'>` shows that `10` belongs to the class `int`(int is short for integer). we can still find out the type of the string: `print(type("plane"))`, output: `<class 'str'>` str is short for string
+We can also find out the data type of the value, for this we can use the function `type()`, `print(type(10))`, output: `<class 'int'>` shows that 10 belongs to class int(int is short for an integer) we can still find out the type of the string: `print(type("plane"))`, output: `<class 'str'>` str is short for string
 
 # How to concatenate strings
 
