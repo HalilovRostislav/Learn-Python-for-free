@@ -9,17 +9,10 @@ In addition, the name of the variable should not be from the name of Python keyw
 #
 
 * boolean - boolean True or False
-* int - represents an integer, such as 1, 4, 8, 50.
-* float - represents a floating point number, for example 1.2 or 34.76
-* complex - complex numbers
+* int - integers (4, -2, 94)
+* float - floating point number(4.65, -0.1, 5.1, 1.0)
 * str - strings, for example "hello". In Python 3.x, strings represent a set of Unicode characters
 * bytes - a sequence of numbers in the range 0-255
-* byte array - an array of bytes, similar to bytes, with the difference that it can change
-* list - list
-* tuple - tuple
-* set - an unordered collection of unique objects
-* frozen set - same as set, only immutable
-* dict - a dictionary where each element has a key and a value
 
 # Operations
 
