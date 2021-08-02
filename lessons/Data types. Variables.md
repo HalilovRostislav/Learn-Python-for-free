@@ -8,10 +8,18 @@ In addition, the name of the variable should not be from the name of Python keyw
 
 #
 
-* ```integers``` (int type) - positive and negative integers, as well as 0 (for example, 6, 23, -9, 1).
-* ```floating point numbers``` (float type) - fractional, they are real, numbers (for example, 3.5, 342.4535, -0.432) 
-To separate the whole and fractional parts, a dot is used here.
-* ```strings``` (str type) - a set of characters enclosed in quotation marks (for example, "car", "What's your name?", "Hello!", "6589", "weonui3AD"). quotes in Python can be single or double; a single quoted character is also a single character
+* boolean - boolean True or False
+* int - represents an integer, such as 1, 4, 8, 50.
+* float - represents a floating point number, for example 1.2 or 34.76
+* complex - complex numbers
+* str - strings, for example "hello". In Python 3.x, strings represent a set of Unicode characters
+* bytes - a sequence of numbers in the range 0-255
+* byte array - an array of bytes, similar to bytes, with the difference that it can change
+* list - list
+* tuple - tuple
+* set - an unordered collection of unique objects
+* frozen set - same as set, only immutable
+* dict - a dictionary where each element has a key and a value
 
 # Operations
 
