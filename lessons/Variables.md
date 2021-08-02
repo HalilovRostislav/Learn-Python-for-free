@@ -20,7 +20,7 @@ There are some more data types, but we will talk about them later...
 
 #
 
-A variable is the simplest named data structure in which an intermediate or final result of a program can be stored. In Python, as in most other languages, the relationship between data and variables is established using the `=` sign. This operation is called an assignment. For example  `a = 5` in this example, the value `5` is assigned to the variable a
+A variable is the simplest named data structure in which an intermediate or final result of a program can be stored. In Python, as in most other languages, the relationship between data and variables is established using the `=` sign. This operation is called an assignment. For example: `a = 5` in this example, the value `5` is assigned to the variable a
 
 ![image](https://user-images.githubusercontent.com/70141250/127202632-e984a314-9e9d-44a6-a644-82423b625906.png)
 
