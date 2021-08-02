@@ -1,7 +1,6 @@
 # What is String?
 
-String are an ordered sequence of characters. Used to store text information.
-To create a string, you must enclose the character or characters in single(`'`) or double(`"`) quotes. For example, "Hello world!"
+The string is an ordered sequence of characters. Used to store text information. To create a string, you must enclose the character or characters in single(') or double(") quotes. For example, "Hello world!"
 
 # Can number be a string?
 
@@ -26,4 +25,4 @@ Hello world
 >>> 'Hi', 'Jake!'
 Hi Jake!
 ```
-In this case, the comma serves as a space for us when concatenating strings. If you are trying to concatenate values ​​with different data types, you will get an error message, to avoid this, you need a comma.
+In this case, the comma serves as space for us when concatenating strings. If you are trying to concatenate values ​​with different data types, you will get an error message, to avoid this, you need a comma.
