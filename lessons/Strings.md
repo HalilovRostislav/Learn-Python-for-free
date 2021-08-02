@@ -11,7 +11,7 @@ we can see that the numbers in the variables are not enclosed in quotes because 
 
 We can also find out the data type of the value for this we can use the `type()` function, `print(type(10))`, output: `<class 'int'>` shows that `10` belongs to the class `int`(int is short for integer). we can still find out the type of the string: `print(type("plane"))`, output: `<class 'str'>` str is short for string
 
-# how to concatenate strings,
+# How to concatenate strings
 
 We can concatenate strings using the `+` symbol.
 
