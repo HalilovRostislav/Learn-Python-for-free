@@ -21,16 +21,27 @@ Data types:
 is_true = True
 is_false = False
 ```
+
+#
+
 * int - integers (4, -2, 94)
 ```py
 number1 = 6543
 year = 2021
-greeting = 'Hello'
+total_months = 12
 ```
 
 #
 
 * float - floating point number (4.65, -0.1, 5.1, 1.0)
+```py
+float_number = 6.4
+weight = 52
+height = 165
+```
+
+#
+
 * str - strings, for example "hello", 'word'.
 There are some more data types, but we will talk about them later...
 
