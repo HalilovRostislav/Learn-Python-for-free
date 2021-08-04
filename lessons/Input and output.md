@@ -70,5 +70,5 @@ Type conversion functions can be used to solve this problem.
 
 ```
 >>> a = int(input())
->>> x = float(input())
 ```
+in this situation, the user can only enter values ​​of type int (integer data type)
