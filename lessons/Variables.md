@@ -27,6 +27,10 @@ There are some more data types, but we will talk about them later...
 
 ![image](https://user-images.githubusercontent.com/70141250/127202632-e984a314-9e9d-44a6-a644-82423b625906.png)
 
+# What can be done with variables?
+
+You can perform math operations on variables (addition, subtraction, multiplication, division ...), concatenate variables, and more.
+
 
 # What are variables for?
 Variables are needed to store data in themselves. Instead of writing 10 multiple times, you can just put it in a variable and reference it in the future.
