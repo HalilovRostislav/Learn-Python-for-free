@@ -17,26 +17,10 @@ For example: `a = 5` in this example, the value `5` is assigned to the variable 
 Basic data types:
 
 * boolean - boolean True or False
-```py
-bool1 = True
-bool2 = False
-```
 * int - integers (4, -2, 94)
-```py
-number = 65
-```
 * float - floating point number (4.65, -0.1, 5.1, 1.0)
-```py
-float_num = 1.543
-```
 * str - strings, for example "hello", 'word'.
-```py
-my_string = "My name is Jake"
-```
 * bytes - a sequence of numbers in the range 0-255
-```py
-my_byte_num = 56
-```
 There are some more data types, but we will talk about them later...
 
 # What are variables for?
