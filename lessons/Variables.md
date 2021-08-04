@@ -34,7 +34,7 @@ my_string = "My name is Jake"
 ```
 * bytes - a sequence of numbers in the range 0-255
 ```py
-myu_byte_num = 56
+my_byte_num = 56
 ```
 There are some more data types, but we will talk about them later...
 
