@@ -42,7 +42,15 @@ height = 165
 
 #
 
-* str - strings, for example "hello", 'word'.
+* str - strings, for example "hello", 'word'
+```py
+name = 'Hi'
+number = '205789'
+```
+If the value is enclosed in single or double quotes, it is considered a string.
+
+#
+
 There are some more data types, but we will talk about them later...
 
 # What are variables for?
