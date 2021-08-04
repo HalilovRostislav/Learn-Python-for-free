@@ -16,8 +16,8 @@ Basic data types:
 
 * boolean - boolean True or False
 * int - integers (4, -2, 94)
-* float - floating point number(4.65, -0.1, 5.1, 1.0)
-* str - strings, for example "hello".
+* float - floating point number (4.65, -0.1, 5.1, 1.0)
+* str - strings, for example "hello", 'word'.
 * bytes - a sequence of numbers in the range 0-255
 
 There are some more data types, but we will talk about them later...
