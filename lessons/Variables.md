@@ -18,7 +18,8 @@ Basic data types:
 
 * boolean - boolean True or False
 ```py
-bool = True
+bool1 = True
+bool2 = False
 ```
 * int - integers (4, -2, 94)
 ```py
