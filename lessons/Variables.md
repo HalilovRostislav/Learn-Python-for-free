@@ -14,13 +14,17 @@ For example: `a = 5` in this example, the value `5` is assigned to the variable 
 
 #
 
-Basic data types:
+Data types:
 
 * boolean - boolean True or False
 * int - integers (4, -2, 94)
+```py
+number1 = 6543
+year = 2021
+greeting = 'Hello'
+```
 * float - floating point number (4.65, -0.1, 5.1, 1.0)
 * str - strings, for example "hello", 'word'.
-* bytes - a sequence of numbers in the range 0-255
 There are some more data types, but we will talk about them later...
 
 # What are variables for?
